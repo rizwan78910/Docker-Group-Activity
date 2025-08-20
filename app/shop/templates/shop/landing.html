@@ -1,0 +1,12 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shop Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'shop/css/style.css' %}">
+</head>
+<body>
+    <h1>Welcome to the Shop!</h1>
+    <a href="{% url 'cart' %}">Go to Cart</a>
+</body>
+</html>
